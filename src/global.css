@@ -1,6 +1,8 @@
 @font-face {
   font-family: ng;
-  src: url(/fonts/ng.ttf);
+  src: url(/fonts/ng.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
 }
 /* @font-face {
   font-family: rubik;
