@@ -13,18 +13,17 @@ const theme = merge(tailwind, {
     heading: tailwind.colors.black,
     divide: tailwind.colors.gray[4],
     muted: tailwind.colors.gray[2],
-    // modes: {
-    //   dark: {
-    //     text: tailwind.colors.gray[4],
-    //     primary: tailwind.colors.purple[4],
-    //     secondary: `#8a9ab0`,
-    //     toggleIcon: tailwind.colors.gray[4],
-    //     background: `#1A202C`,
-    //     heading: tailwind.colors.white,
-    //     divide: tailwind.colors.gray[8],
-    //     muted: tailwind.colors.gray[8],
-    //   },
-    // },
+    modes: {
+      dark: {
+        primary: tailwind.colors.green[5],
+        secondary: `#5f6c80`,
+        background: "#FFFFFF",
+        toggleIcon: tailwind.colors.gray[8],
+        heading: tailwind.colors.black,
+        divide: tailwind.colors.gray[4],
+        muted: tailwind.colors.gray[2],
+      },
+    },
   },
   fonts: {
     body: `ng,-apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"`,
