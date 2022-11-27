@@ -8,7 +8,7 @@ import useMinimalBlogConfig from "@lekoarts/gatsby-theme-minimal-blog/src/hooks/
 const Header = () => {
   const { navigation: nav } = useMinimalBlogConfig();
   const [colorMode, setColorMode] = useColorMode();
-  setColorMode("light");
+  // setColorMode("light");
   const isDark = colorMode === `dark`;
   const toggleColorMode = (e: React.SyntheticEvent) => {
     e.preventDefault();
