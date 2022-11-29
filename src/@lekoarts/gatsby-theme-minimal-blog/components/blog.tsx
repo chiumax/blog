@@ -35,4 +35,4 @@ const Blog = ({ posts }: MBBlogProps) => {
 
 export default Blog;
 
-export const Head: HeadFC = () => <Seo title="Blog" />;
+export const Head: HeadFC = () => <Seo title="" />;
