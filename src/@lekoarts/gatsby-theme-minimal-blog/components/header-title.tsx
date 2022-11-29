@@ -28,11 +28,11 @@ const HeaderTitle = () => {
           sx={{
             fontWeight: "normal",
             color: hovered ? "muted" : "secondary",
-            transition: "color 0.5s cubic-bezier(0.16, 1, 0.3, 1)",
+            transition: "color 0.35s cubic-bezier(0.16, 1, 0.3, 1)",
             ":hover": { color: "primary" },
             ":hover ~ span": { color: "muted" },
             "~ span": {
-              transition: "color 0.5s cubic-bezier(0.16, 1, 0.3, 1)",
+              transition: "color 0.35s cubic-bezier(0.16, 1, 0.3, 1)",
             },
           }}
         >
@@ -43,7 +43,7 @@ const HeaderTitle = () => {
             sx={{
               textDecoration: "none",
               color: "inherit",
-              transition: "color 0.5s cubic-bezier(0.16, 1, 0.3, 1)",
+              transition: "color 0.35s cubic-bezier(0.16, 1, 0.3, 1)",
             }}
           >
             chiu.fyi
@@ -53,7 +53,7 @@ const HeaderTitle = () => {
           sx={{
             color: "secondary",
             fontWeight: "normal",
-            transition: "color 0.5s cubic-bezier(0.33, 1, 0.68, 1)",
+            transition: "color 0.35s cubic-bezier(0.33, 1, 0.68, 1)",
           }}
         >
           .
@@ -61,7 +61,7 @@ const HeaderTitle = () => {
         <span
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}
-          sx={{ transition: "color 0.5s cubic-bezier(0.16, 1, 0.3, 1)" }}
+          sx={{ transition: "color 0.35s cubic-bezier(0.16, 1, 0.3, 1)" }}
         >
           <Link
             to={replaceSlashes(`/${basePath}`)}
@@ -69,7 +69,7 @@ const HeaderTitle = () => {
             sx={{
               textDecoration: "none",
               color: "inherit",
-              transition: "color 0.5s cubic-bezier(0.16, 1, 0.3, 1)",
+              transition: "color 0.35s cubic-bezier(0.16, 1, 0.3, 1)",
             }}
           >
             blog
